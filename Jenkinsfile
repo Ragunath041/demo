@@ -36,7 +36,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying application...'
-                sh 'scp -r ./ ubuntu@13.60.196.204:/var/www/new_folder'
+                sh 'scp -r ./ ubuntu@16.171.142.91:/var/lib/jenkins'
             }
         }
     }
